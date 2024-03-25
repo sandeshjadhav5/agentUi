@@ -1,0 +1,14 @@
+.show-count-up {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .show-count-up {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-direction: column;
+  }
+}
