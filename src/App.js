@@ -1,11 +1,11 @@
 import Navbar from "./Components/Navbar";
-import HomePage from "./Pages/HomePage";
-import MainRoutes from "./Pages/ManiRoutes";
-import Footer from "./Components/Footer";
+import { Box } from "@chakra-ui/react";
+import MainRoutes from "./Pages/MainRoutes";
+
 function App() {
   return (
     <div>
-      <MainRoutes />
+      <Box h="100vh" bg="#F6F7F9">   <MainRoutes /></Box>
     </div>
   );
 }
